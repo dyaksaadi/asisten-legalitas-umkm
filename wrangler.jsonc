@@ -1,6 +1,13 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "asisten-legalitas-umkm",
-  "main": "backend/server.js",
-  "compatibility_date": "2026-11-06"
+  "main": "backend/worker.js",
+  "compatibility_date": "2026-11-06",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "assets": {
+    "directory": "frontend/dist",
+    "binding": "ASSETS"
+  }
 }

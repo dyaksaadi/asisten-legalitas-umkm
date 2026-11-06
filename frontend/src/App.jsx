@@ -243,10 +243,23 @@ export default function App() {
           {analysisResult && showResults && (
             <>
               <div className="info-card">
-                <h3>
-                  <CheckCircle2 size={18} />
-                  Urutan Perizinan
-                </h3>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem' }}>
+                  <h3 style={{ margin: 0 }}>
+                    <CheckCircle2 size={18} />
+                    Urutan Perizinan
+                  </h3>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      const text = analysisResult.urutan_izin.map((i, idx) => `${idx + 1}. ${i.nama} (${i.penerbit}) - Biaya: ${i.biaya}`).join('\n');
+                      navigator.clipboard.writeText(text);
+                      alert('Ringkasan izin berhasil disalin ke clipboard!');
+                    }}
+                    style={{ background: '#0e8f75', color: '#fff', border: 'none', padding: '0.3rem 0.6rem', borderRadius: '6px', fontSize: '0.75rem', cursor: 'pointer', fontWeight: 600 }}
+                  >
+                    📋 Salin Ringkasan
+                  </button>
+                </div>
                 <div className="list-stack">
                   {analysisResult.urutan_izin.map((izin, idx) => (
                     <button
@@ -326,6 +339,9 @@ export default function App() {
               <div className="detail-summary">
                 <p><strong>Biaya:</strong> {izinDetail.biaya}</p>
                 <p><strong>Estimasi Waktu:</strong> {izinDetail.estimasi_waktu}</p>
+                {izinDetail.id === 'NIB' && <p style={{ marginTop: '0.4rem' }}>🔗 Rujukan Resmi: <a href="https://oss.go.id/id/panduan" target="_blank" rel="noreferrer" style={{ color: '#7fe9c6' }}>oss.go.id/id/panduan</a></p>}
+                {izinDetail.id === 'SPP-IRT' && <p style={{ marginTop: '0.4rem' }}>🔗 Rujukan Resmi: <a href="https://sppirt.bpom.go.id" target="_blank" rel="noreferrer" style={{ color: '#7fe9c6' }}>sppirt.bpom.go.id</a></p>}
+                {izinDetail.id === 'HALAL-SELF-DECLARE' && <p style={{ marginTop: '0.4rem' }}>🔗 Rujukan Resmi: <a href="https://bpjph.halal.go.id" target="_blank" rel="noreferrer" style={{ color: '#7fe9c6' }}>bpjph.halal.go.id</a></p>}
               </div>
 
               <div className="detail-section">

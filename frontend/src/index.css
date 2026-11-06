@@ -501,7 +501,7 @@ button, input {
   background: #132737;
   border: 1px solid rgba(148,163,184,0.18);
   border-radius: 18px;
-  overflow: hidden;
+  overflow-y: auto;
   box-shadow: 0 18px 40px rgba(0,0,0,0.35);
 }
 
