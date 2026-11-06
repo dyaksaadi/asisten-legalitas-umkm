@@ -1,0 +1,278 @@
+{
+  "terakhir_diperbarui": "2026-10-29",
+  "dasar_hukum": [
+    "Peraturan BPOM Nomor 4 Tahun 2024 tentang Pedoman Penerbitan SPP-IRT",
+    "Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi",
+    "Ketentuan BPJPH Sertifikasi Halal Gratis (SEHATI) 2026",
+    "Panduan OSS RBA Risk Based Approach"
+  ],
+  "kategori_izin": [
+    {
+      "id": "NIB",
+      "nama": "Nomor Induk Berusaha (NIB)",
+      "penerbit": "Kementerian Investasi / BKPM (via OSS RBA)",
+      "biaya": "Gratis (Rp 0)",
+      "estimasi_waktu": "Langsung terbit (1 hari kerja)",
+      "deskripsi": "Identitas wajib bagi pelaku usaha di Indonesia untuk melakukan kegiatan usaha dan menjadi dasar pengurusan izin lainnya.",
+      "persyaratan_dokumen": [
+        "NIK E-KTP terdaftar di Dukcapil (tidak diunggah ke sistem AI)",
+        "Email aktif",
+        "Nomor HP / WhatsApp aktif",
+        "NPWP (bila sudah memiliki, tidak wajib untuk usaha mikro)",
+        "Data Bidang Usaha (KBLI Makanan)"
+      ],
+      "alur_proses": [
+        {
+          "tahap": 1,
+          "nama": "Persiapan Dokumen",
+          "durasi": "1-2 jam",
+          "detail": [
+            "Siapkan NIK E-KTP (pastikan terdaftar di Dukcapil)",
+            "Siapkan email aktif yang mudah diakses",
+            "Siapkan nomor HP/WhatsApp aktif",
+            "Jika ada NPWP, siapkan juga",
+            "Tentukan nama usaha & alamat usaha"
+          ]
+        },
+        {
+          "tahap": 2,
+          "nama": "Login OSS RBA",
+          "durasi": "5-10 menit",
+          "detail": [
+            "Buka https://oss.go.id",
+            "Klik 'Daftar' atau 'Login'",
+            "Masukkan email & nomor HP",
+            "Verifikasi via OTP yang dikirim ke email/SMS",
+            "Buat password yang aman"
+          ]
+        },
+        {
+          "tahap": 3,
+          "nama": "Isi Formulir NIB",
+          "durasi": "15-20 menit",
+          "detail": [
+            "Pilih 'Izin Berusaha Utama'",
+            "Masukkan data pribadi (nama, NIK, alamat KTP)",
+            "Masukkan data usaha (nama usaha, KBLI 10799 untuk makanan, alamat usaha)",
+            "Pilih jenis usaha: 'Perorangan/Mikro' atau 'Badan Usaha'",
+            "Verifikasi data yang sudah diisi"
+          ]
+        },
+        {
+          "tahap": 4,
+          "nama": "Verifikasi Data Dukcapil",
+          "durasi": "Instant",
+          "detail": [
+            "Sistem otomatis akan verifikasi NIK ke database Dukcapil",
+            "Jika terdaftar: lanjut ke tahap berikutnya",
+            "Jika tidak terdaftar: hubungi Dukcapil terdekat untuk update data"
+          ]
+        },
+        {
+          "tahap": 5,
+          "nama": "Submit & Terbitkan",
+          "durasi": "Instant",
+          "detail": [
+            "Klik 'Submit Permohonan'",
+            "NIB akan terbit langsung di layar",
+            "Catat NIB yang sudah terbit",
+            "Download atau print bukti NIB",
+            "Simpan baik-baik untuk dokumen izin berikutnya"
+          ]
+        }
+      ],
+      "link_referensi": "https://oss.go.id/id/panduan",
+      "kontak_bantuan": "OSS Helpdesk: 021-5060-1234 atau chat di oss.go.id"
+    },
+    {
+      "id": "SPP-IRT",
+      "nama": "Sertifikat Produksi Pangan Industri Rumah Tangga (SPP-IRT)",
+      "penerbit": "Dinas Kesehatan Kabupaten/Kota (via SPPIRT BPOM / OSS)",
+      "biaya": "Gratis (Rp 0)",
+      "estimasi_waktu": "1 - 3 hari kerja",
+      "deskripsi": "Izin edar khusus produk pangan olahan risiko rendah skala rumah tangga dengan masa simpan minimal 7 hari pada suhu ruang.",
+      "kriteria_kelayakan": {
+        "tempat_produksi": "Rumah tangga / industri kecil",
+        "kondisi_produk": "Kering atau terkemas rapi",
+        "masa_simpan_hari_min": 7,
+        "suhu_penyimpanan": "Suhu ruang (bukan beku/chilled)",
+        "larangan": [
+          "Produk beku (frozen food)",
+          "Susu olahan murni / keju / yoghurt",
+          "Daging olahan kaleng / retort",
+          "Pangan untuk bayi / diet khusus",
+          "Klaim khasiat obat / kesehatan"
+        ]
+      },
+      "persyaratan_dokumen": [
+        "NIB terbit",
+        "Denah lokasi & tata ruang produksi",
+        "Rancangan label / desain kemasan produk",
+        "Daftar komposisi / bahan baku",
+        "Sertifikat Penyuluhan Keamanan Pangan (PKP) - *dapat menyusul*"
+      ],
+      "alur_proses": [
+        {
+          "tahap": 1,
+          "nama": "Verifikasi Kelayakan Produk",
+          "durasi": "1 jam",
+          "detail": [
+            "Pastikan produk Anda memenuhi kriteria SPP-IRT",
+            "Cek: produk kering/terkemas, masa simpan ≥7 hari, suhu ruang",
+            "Jika ada keraguan: hubungi Dinas Kesehatan setempat untuk konsultasi gratis"
+          ]
+        },
+        {
+          "tahap": 2,
+          "nama": "Persiapan Dokumen",
+          "durasi": "2-3 hari",
+          "detail": [
+            "Siapkan NIB yang sudah terbit",
+            "Buat denah lokasi produksi (tangan/digital)",
+            "Siapkan foto lokasi produksi (dapur/ruang produksi)",
+            "Desain label kemasan dengan informasi wajib: nama produk, komposisi, tanggal kadaluarsa, nomor lot",
+            "Buat daftar komposisi lengkap dengan % berat bahan"
+          ]
+        },
+        {
+          "tahap": 3,
+          "nama": "Ikuti Pelatihan PKP (Optional tapi Recommended)",
+          "durasi": "4-8 jam",
+          "detail": [
+            "Daftar ke Dinas Kesehatan setempat untuk ikut Pelatihan Penyuluhan Keamanan Pangan (PKP)",
+            "Pelatihan gratis & sering diadakan setiap bulan",
+            "Dapatkan sertifikat PKP setelah selesai",
+            "Sertifikat ini mempercepat proses SPP-IRT"
+          ]
+        },
+        {
+          "tahap": 4,
+          "nama": "Submit Permohonan ke Dinas Kesehatan",
+          "durasi": "15-30 menit",
+          "detail": [
+            "Datang ke Dinas Kesehatan Kabupaten/Kota dengan dokumen lengkap",
+            "Atau upload via portal SPPIRT BPOM: https://sppirt.bpom.go.id",
+            "Isi formulir permohonan SPP-IRT",
+            "Lampirkan semua dokumen persyaratan",
+            "Bayar biaya administrasi (jika ada, biasanya Rp 0-100rb)"
+          ]
+        },
+        {
+          "tahap": 5,
+          "nama": "Verifikasi Lokasi & Inspeksi",
+          "durasi": "1-2 hari",
+          "detail": [
+            "Petugas Dinas Kesehatan akan berkunjung ke lokasi produksi",
+            "Mereka akan cek: kebersihan, tata ruang, fasilitas air bersih, tempat sampah",
+            "Siapkan lokasi rapi & bersih saat inspeksi",
+            "Jika ada kekurangan: berikan waktu perbaikan 3-7 hari"
+          ]
+        },
+        {
+          "tahap": 6,
+          "nama": "Terbitkan SPP-IRT",
+          "durasi": "1 hari",
+          "detail": [
+            "Jika inspeksi lolos: SPP-IRT akan terbit",
+            "Ambil SPP-IRT di Dinas Kesehatan atau download dari portal",
+            "SPP-IRT berlaku 2 tahun dari tanggal terbit",
+            "Catat nomor SPP-IRT untuk perpanjangan kemudian"
+          ]
+        }
+      ],
+      "link_referensi": "https://sppirt.bpom.go.id",
+      "kontak_bantuan": "Hubungi Dinas Kesehatan Kabupaten/Kota setempat"
+    },
+    {
+      "id": "HALAL-SELF-DECLARE",
+      "nama": "Sertifikat Halal Gratis (Jalur Self Declare SEHATI)",
+      "penerbit": "BPJPH Kementerian Agama",
+      "biaya": "Gratis (Rp 0 via Program SEHATI)",
+      "estimasi_waktu": "12 - 21 hari kerja",
+      "deskripsi": "Sertifikasi halal tanpa biaya bagi UMKM mikro & kecil dengan bahan yang sudah dipastikan kehalalannya dan proses sederhana.",
+      "kriteria_kelayakan": {
+        "skala_usaha": "Mikro atau Kecil",
+        "sifat_bahan": "Bahan baku dipastikan halal (ada sertifikat halal bahan atau bahan alam tanpa olahan kimia)",
+        "proses": "Sederhana dan tidak berisiko tercampur bahan haram",
+        "memiliki_pendamping": true
+      },
+      "persyaratan_dokumen": [
+        "NIB & SPP-IRT / BPOM",
+        "Daftar produk dan bahan baku beserta merk",
+        "Sertifikat halal bahan baku (jika ada)",
+        "Matriks/Alur Proses Produksi Halal (PPH)",
+        "Surat Pernyataan Halal dari Pelaku Usaha"
+      ],
+      "alur_proses": [
+        {
+          "tahap": 1,
+          "nama": "Verifikasi Kelayakan Self Declare",
+          "durasi": "1 jam",
+          "detail": [
+            "Pastikan usaha Anda: mikro atau kecil (turnover < 1 Miliar/tahun)",
+            "Semua bahan baku: alam atau sudah bersertifikat halal",
+            "Proses produksi: sederhana, tidak ada bahan haram",
+            "Tidak ada risiko tercampur dengan bahan haram"
+          ]
+        },
+        {
+          "tahap": 2,
+          "nama": "Persiapan Dokumen",
+          "durasi": "2-3 hari",
+          "detail": [
+            "Siapkan NIB & SPP-IRT/BPOM",
+            "Buat daftar semua produk yang akan disertifikat",
+            "Kumpulkan sertifikat halal bahan baku (jika ada)",
+            "Buat Matriks Produksi Halal: daftar bahan → komposisi → sumber bahan",
+            "Persiapkan Surat Pernyataan Halal dari pemilik usaha (tanda tangan basah)"
+          ]
+        },
+        {
+          "tahap": 3,
+          "nama": "Daftar ke BPJPH Online",
+          "durasi": "30 menit",
+          "detail": [
+            "Buka https://sertifikasi.halal.go.id",
+            "Klik 'Permohonan Sertifikat Halal' → Jalur Self Declare",
+            "Isi data usaha & produk",
+            "Upload dokumen (NIB, SPP-IRT, matriks produksi, surat pernyataan)",
+            "Submit permohonan"
+          ]
+        },
+        {
+          "tahap": 4,
+          "nama": "Verifikasi Dokumen BPJPH",
+          "durasi": "3-5 hari",
+          "detail": [
+            "Tim BPJPH akan review dokumen Anda",
+            "Jika lengkap & sesuai: lanjut ke verifikasi lapangan",
+            "Jika kurang: BPJPH akan minta revisi via email"
+          ]
+        },
+        {
+          "tahap": 5,
+          "nama": "Verifikasi Lapangan (Opsional tapi Recommended)",
+          "durasi": "1 hari",
+          "detail": [
+            "Pendamping halal atau surveyor BPJPH akan ke lokasi produksi",
+            "Cek: kebersihan, proses produksi, penyimpanan bahan baku",
+            "Pastikan lokasi rapi & siap dikunjungi"
+          ]
+        },
+        {
+          "tahap": 6,
+          "nama": "Sertifikat Halal Diterbitkan",
+          "durasi": "2-3 hari",
+          "detail": [
+            "Jika verifikasi lolos: BPJPH akan terbitkan Sertifikat Halal",
+            "Download sertifikat dari portal sertifikasi.halal.go.id",
+            "Cetak & pajang di tempat usaha/kemasan produk",
+            "Sertifikat berlaku 4 tahun"
+          ]
+        }
+      ],
+      "link_referensi": "https://sertifikasi.halal.go.id",
+      "kontak_bantuan": "BPJPH: 021-2905-9999 atau email info@halal.go.id"
+    }
+  ]
+}

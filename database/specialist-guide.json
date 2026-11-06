@@ -1,0 +1,227 @@
+{
+  "versi": "1.0",
+  "terakhir_diperbarui": "2026-11-03",
+  "deskripsi": "Panduan Komprehensif untuk GROK AI Specialist - Perizinan UMKM Makanan",
+  "disclaimer": "Informasi berdasarkan Peraturan BPOM No. 4/2024, UU PDP 27/2022, & Panduan OSS RBA. Selalu verifikasi dengan sumber resmi terbaru.",
+  
+  "NIB": {
+    "nama_lengkap": "Nomor Induk Berusaha",
+    "definisi": "Identitas unik nasional untuk setiap pelaku usaha di Indonesia. Wajib dimiliki sebelum mengurus izin lain (SPP-IRT, BPOM, Halal).",
+    "penerbit": "Kementerian Investasi / BKPM via sistem OSS RBA (Online Single Submission Risk-Based Approach)",
+    "biaya": "Gratis (Rp 0)",
+    "waktu_proses": "Instant - langsung terbit saat submit (1 hari kerja maksimal)",
+    "berlaku_seumur_hidup": true,
+    "syarat_minimal": [
+      "NIK E-KTP terdaftar di database Dukcapil Kemendagri",
+      "Email aktif (Gmail, Yahoo, etc)",
+      "Nomor HP/WhatsApp aktif & dapat menerima OTP",
+      "Menentukan lokasi usaha (alamat lengkap)"
+    ],
+    "syarat_optional": [
+      "NPWP (tidak wajib untuk usaha mikro pertama kali, bisa menyusul)"
+    ],
+    "FAQ": [
+      {
+        "pertanyaan": "Apa bedanya NIB dengan NPWP?",
+        "jawaban": "NIB adalah identitas usaha, NPWP adalah identitas pajak. Berbeda fungsi. NIB gratis & wajib, NPWP opsional untuk mikro."
+      },
+      {
+        "pertanyaan": "Bagaimana jika NIK saya belum terdaftar di Dukcapil?",
+        "jawaban": "Pergi ke kantor Dukcapil (Dinas Kependudukan) setempat untuk update data. Bawa E-KTP original. Proses 3-7 hari."
+      },
+      {
+        "pertanyaan": "Bisa daftar NIB tanpa NPWP?",
+        "jawaban": "Ya, bisa. NPWP bisa ditambahkan kemudian. Untuk usaha mikro pertama kali, NPWP tidak wajib."
+      },
+      {
+        "pertanyaan": "Berapa lama NIB berlaku?",
+        "jawaban": "NIB berlaku seumur hidup selama usaha masih aktif. Tidak perlu perpanjangan."
+      },
+      {
+        "pertanyaan": "Gimana kalau alamat produksi berubah?",
+        "jawaban": "Bisa update melalui portal OSS. Login → Kelola Izin → Edit Alamat Usaha. Gratis."
+      }
+    ],
+    "kesalahan_umum": [
+      "Lupa verifikasi email/OTP sehingga proses terhenti",
+      "Mengisi alamat usaha tidak jelas (harus detail: Jl., No., RT/RW, Kelurahan, Kecamatan)",
+      "NIK belum terdaftar di Dukcapil (harus update ke Dukcapil dulu)",
+      "Salah pilih KBLI (untuk makanan: 10799 - Industri Produk Makanan Lainnya)"
+    ],
+    "link_resmi": "https://oss.go.id",
+    "kontak_bantuan": "021-5060-1234 atau chat di portal OSS"
+  },
+
+  "SPP-IRT": {
+    "nama_lengkap": "Sertifikat Pemenuhan Komitmen Produksi Pangan Olahan Industri Rumah Tangga",
+    "definisi": "Izin edar untuk produk pangan olahan risiko rendah dari rumah tangga/usaha kecil. Berlaku 2 tahun.",
+    "penerbit": "Dinas Kesehatan Kabupaten/Kota (dengan acuan Peraturan BPOM No. 4/2024)",
+    "biaya": "Gratis hingga Rp 100.000 (tergantung daerah, biasanya gratis)",
+    "waktu_proses": "1-3 hari kerja setelah inspeksi lolos",
+    "berlaku_tahun": 2,
+    "produk_yang_cocok": [
+      "Keripik (pisang, singkong, dll)",
+      "Kue kering (cookies, crackers)",
+      "Sambal kering / bubuk",
+      "Teh celup / minuman kering",
+      "Kacang goreng",
+      "Madu & sirup (tidak fermentasi)",
+      "Bumbu kering",
+      "Produk pangan kering lainnya: terkemas, berlabel, masa simpan ≥7 hari, suhu ruang"
+    ],
+    "produk_yang_TIDAK_cocok": [
+      "Produk beku (frozen food, dimsum beku, nugget beku)",
+      "Susu murni, keju, yoghurt",
+      "Daging olahan kaleng / sterilisasi retort",
+      "Pangan untuk bayi / diet khusus",
+      "Produk dengan klaim khasiat obat/kesehatan",
+      "Minuman yang difermentasi (tape, kombucha)",
+      "Makanan basah tanpa kemasan (roti, kue basah)"
+    ],
+    "kriteria_kelayakan": {
+      "skala_usaha": "Mikro atau Kecil (turnover < Rp 1 Miliar/tahun)",
+      "masa_simpan_minimum_hari": 7,
+      "suhu_penyimpanan": "Suhu ruang (15-30°C)",
+      "kemasan": "Tertutup rapi, berlabel lengkap",
+      "lokasi_produksi": "Rumah tangga atau usaha kecil (bukan pabrik besar)"
+    },
+    "persyaratan_dokumen": [
+      "NIB (wajib)",
+      "Denah lokasi produksi (tangan/digital) + foto lokasi",
+      "Label kemasan produk (warna, ukuran sesuai rencana produksi)",
+      "Daftar komposisi & bahan baku lengkap dengan % berat",
+      "Sertifikat PKP (Penyuluhan Keamanan Pangan) - dapat menyusul dalam 30 hari"
+    ],
+    "FAQ": [
+      {
+        "pertanyaan": "Apa bedanya SPP-IRT dengan BPOM?",
+        "jawaban": "SPP-IRT untuk produk risiko rendah (kering, suhu ruang). BPOM untuk produk risiko tinggi (beku, kaleng, berisi daging/susu). Pilih sesuai produk Anda."
+      },
+      {
+        "pertanyaan": "Gimana caranya tahu produk aku masuk kategori apa?",
+        "jawaban": "Lihat kriteria: kering + terkemas + masa simpan ≥7 hari + suhu ruang = SPP-IRT. Jika ada salah satu tidak terpenuhi = BPOM."
+      },
+      {
+        "pertanyaan": "Berapa biaya inspeksi?",
+        "jawaban": "Gratis. Inspeksi oleh Dinas Kesehatan adalah layanan publik."
+      },
+      {
+        "pertanyaan": "Berapa lama SPP-IRT berlaku?",
+        "jawaban": "2 tahun. Setelah itu harus perpanjang (permohonan baru)."
+      },
+      {
+        "pertanyaan": "Bisa daftar SPP-IRT tanpa PKP?",
+        "jawaban": "Bisa, tapi bisa menyusul dalam 30 hari. Tapi lebih cepat jika sudah punya PKP saat submit."
+      },
+      {
+        "pertanyaan": "Apa itu PKP dan di mana bisa ikut?",
+        "jawaban": "PKP = Pelatihan Penyuluhan Keamanan Pangan (gratis, 4-8 jam). Daftar ke Dinas Kesehatan setempat. Sering diadakan setiap bulan."
+      }
+    ],
+    "kesalahan_umum": [
+      "Produk beku daftar SPP-IRT (harus BPOM)",
+      "Label kemasan tidak lengkap saat submit (harus ada: nama, komposisi, kadaluarsa, lot number)",
+      "Denah lokasi tidak jelas (petugas bingung saat inspeksi)",
+      "Lokasi produksi kotor/berantakan saat inspeksi (inspektur akan minta perbaikan)"
+    ],
+    "link_resmi": "https://sppirt.bpom.go.id",
+    "kontak_bantuan": "Hubungi Dinas Kesehatan Kabupaten/Kota setempat"
+  },
+
+  "HALAL": {
+    "nama_lengkap": "Sertifikat Halal",
+    "definisi": "Jaminan tertulis bahwa produk halal sesuai hukum syariat Islam. Diperlukan untuk pemasaran & kepercayaan konsumen.",
+    "penerbit": "BPJPH (Badan Penyelenggara Jaminan Produk Halal) Kementerian Agama",
+    "biaya_jalur_self_declare": "Gratis (Program SEHATI)",
+    "biaya_jalur_reguler": "Sesuai tarif BPJPH & audit LPH (LPH = Lembaga Pemeriksa Halal)",
+    "waktu_self_declare": "12-21 hari kerja",
+    "waktu_reguler": "21-30 hari kerja",
+    "berlaku_tahun": 4,
+    "jalur_self_declare_kriteria": [
+      "Skala usaha: Mikro atau Kecil",
+      "Semua bahan baku: dipastikan halal (ada sertifikat halal bahan atau bahan alam tanpa olahan kimia)",
+      "Proses produksi: sederhana, tidak berisiko tercampur bahan haram",
+      "Lokasi produksi: halal (tidak berbatasan dengan tempat haram)"
+    ],
+    "jalur_reguler_untuk": [
+      "Usaha menengah/besar",
+      "Bahan baku kompleks / ada keraguan kehalalannya",
+      "Proses produksi rumit",
+      "Ingin sertifikasi internasional"
+    ],
+    "bahan_yang_pasti_halal": [
+      "Sayuran, buah-buahan segar",
+      "Biji-bijian (padi, jagung, kacang)",
+      "Minyak tumbuhan (kelapa, sawit, dll - kecuali jika proses menggunakan alkohol)",
+      "Gula, garam, tepung",
+      "Rempah-rempah alami"
+    ],
+    "bahan_yang_perlu_verifikasi": [
+      "Daging & unggas (harus halal cutting & sumber jelas)",
+      "Susu & produk turunannya",
+      "Telur",
+      "Madu",
+      "Bahan kimia / aditif (pewarna, pengawet, pengemulsi)"
+    ],
+    "persyaratan_dokumen": [
+      "NIB (wajib)",
+      "SPP-IRT atau BPOM (wajib)",
+      "Daftar produk & bahan baku lengkap (dengan merk/sumber)",
+      "Sertifikat halal bahan baku (jika ada)",
+      "Matriks Produksi Halal (PPH): daftar bahan → proses → risiko halal",
+      "Surat Pernyataan Halal dari pemilik usaha (tanda tangan basah + cap perusahaan)"
+    ],
+    "FAQ": [
+      {
+        "pertanyaan": "Apakah sertifikat halal wajib?",
+        "jawaban": "Tidak wajib secara hukum untuk UMKM, tapi sangat direkomendasikan untuk: (1) kepercayaan konsumen Muslim, (2) akses pasar yg lebih luas, (3) persyaratan retail modern."
+      },
+      {
+        "pertanyaan": "Apa bedanya self declare dengan reguler?",
+        "jawaban": "Self declare: gratis, cepat, untuk mikro/kecil dgn bahan sederhana. Reguler: berbayar, audit LPH, untuk usaha besar/bahan kompleks."
+      },
+      {
+        "pertanyaan": "Berapa biaya audit LPH di jalur reguler?",
+        "jawaban": "Variatif, tergantung LPH. Kisaran Rp 2-10 juta tergantung jumlah produk & kompleksitas. Tanya langsung ke LPH terdekat."
+      },
+      {
+        "pertanyaan": "Berapa lama sertifikat halal berlaku?",
+        "jawaban": "4 tahun. Setelah itu harus perpanjang (permohonan baru)."
+      },
+      {
+        "pertanyaan": "Bisa daftar halal kalau belum punya SPP-IRT?",
+        "jawaban": "Tidak. Halal perlu SPP-IRT atau BPOM sebagai syarat utama."
+      },
+      {
+        "pertanyaan": "Berapa banyak produk yang bisa disertifikat dalam 1 permohonan?",
+        "jawaban": "Bisa sampai 50+ produk dalam 1 sertifikat, asalkan bahan baku & proses sama. Hemat biaya."
+      }
+    ],
+    "kesalahan_umum": [
+      "Belum ada SPP-IRT/BPOM tapi sudah daftar halal (akan ditolak)",
+      "Matriks Produksi Halal tidak jelas / tidak detail (proses lambat)",
+      "Ada bahan impor tapi tidak tahu halal tidaknya (perlu verifikasi dulu)",
+      "Lokasi produksi berbatasan dengan tempat non-halal / campur barang haram (akan ditolak)"
+    ],
+    "link_resmi": "https://sertifikasi.halal.go.id",
+    "kontak_bantuan": "BPJPH: 021-2905-9999 atau email info@halal.go.id"
+  },
+
+  "TIPS_UMUM": [
+    "Urutan wajib: NIB dulu → SPP-IRT/BPOM → Halal (jangan loncat)",
+    "Semua dokumen: nama file jelas, format PDF/JPG, tidak corrupt",
+    "Email verifikasi: cek folder spam/promotions jika tidak dapat OTP",
+    "Foto lokasi: terang, rapi, menunjukkan area produksi dengan jelas",
+    "Label produk: sesuaikan dengan yang akan diproduksi (jangan asal-asalan)",
+    "Konsultasi gratis: Dinas Kesehatan/BPJPH menyediakan, gunakan sebelum submit",
+    "Jangan percaya makelar: semua proses OSS/SPPIRT/Halal bisa dikerjakan sendiri gratis"
+  ],
+
+  "SUMBER_RESMI": [
+    "https://oss.go.id - Panduan lengkap NIB",
+    "https://sppirt.bpom.go.id - Portal SPP-IRT",
+    "https://sertifikasi.halal.go.id - Portal Sertifikat Halal",
+    "Peraturan BPOM No. 4 Tahun 2024 tentang Pedoman Penerbitan SPP-IRT",
+    "UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi"
+  ]
+}
